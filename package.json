@@ -1,0 +1,45 @@
+{
+  "name": "meu-projeto-vue",
+  "version": "1.0.0",
+  "description": "Projeto Vue.js final 2019",
+  "main": "index.js",
+  "engines": {
+    "node": "v10.16.0"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "prod:local": "http-server ./dist/",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chart.js": "^2.9.3",
+    "core-js": "^2.6.5",
+    "firebase": "^6.2.4",
+    "http-server": "^13.1.0",
+    "lodash.groupby": "^4.6.0",
+    "moment": "^2.24.0",
+    "regenerator-runtime": "^0.13.3",
+    "vue": "^2.6.10",
+    "vue-chartjs": "^3.5.0",
+    "vue-material": "^1.0.0-beta-11",
+    "vue-router": "^3.0.3",
+    "vue-underscore": "^0.1.4"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.28.5",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
+}
