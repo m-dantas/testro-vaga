@@ -55,13 +55,13 @@ This project consumes public data provided by the Brazilian government:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/m-dantas/testro-vaga
 ```
 
 2. Navigate to the project folder:
 
 ```bash
-cd your-repository
+cd testro-vaga
 ```
 
 3. Configure **Firebase**:
